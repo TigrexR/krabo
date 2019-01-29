@@ -49,7 +49,7 @@
 		</dependency>
 		<!-- =====================================END================================================= -->
 
-		<!-- mysql、mybatis、mybatis-plus、druid配置 -->
+		<!-- mysql、mybatis、druid配置 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jdbc</artifactId>
@@ -62,11 +62,6 @@
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>1.3.2</version>
-		</dependency>
-		<dependency>
-			<groupId>com.baomidou</groupId>
-			<artifactId>mybatis-plus-boot-starter</artifactId>
-			<version>3.0.5</version>
 		</dependency>
 		<dependency>
 			<groupId>com.alibaba</groupId>

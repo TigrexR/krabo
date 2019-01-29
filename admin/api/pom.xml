@@ -22,12 +22,11 @@
 
 	<dependencies>
 
-		<!-- 接口编写需要依赖mybatisplus的jar包，但是打成jar之后不包含，外部引用服务提供mybatisplus包服务 -->
+		<!-- mybatis-plus -->
 		<dependency>
 			<groupId>com.baomidou</groupId>
 			<artifactId>mybatis-plus-boot-starter</artifactId>
 			<version>3.0.5</version>
-			<scope>provided</scope>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
